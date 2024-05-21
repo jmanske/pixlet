@@ -37,6 +37,7 @@ var (
 	dryRunFlag   bool
 	fixFlag      bool
 	outputFormat string
+	autoFlag     bool
 )
 
 func runBuildifier(args []string, lint string, mode string, format string, recursive bool, verbose bool) int {

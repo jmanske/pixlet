@@ -21,3 +21,6 @@ src/go
 
 # build files from monorepo
 BUILD.bazel
+
+# VS code stuff
+.vscode/
